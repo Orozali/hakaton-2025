@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'hakaton',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': 'db',
+        'NAME': 'hakaton_db',
+        'USER': 'postgres2',
+        'PASSWORD': 'postgres',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }

@@ -23,3 +23,4 @@ class Course(models.Model):
     toefl_ibt = models.FloatField(blank=True, null=True)
     toefl_pbt = models.FloatField(blank=True, null=True)
     cerf = models.CharField(max_length=10, blank=True, null=True)
+    uni_assist = models.BooleanField(default=False)
