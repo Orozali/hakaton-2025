@@ -66,7 +66,7 @@ class GptApi(APIView):
     parser_classes = [JSONParser]
 
     def post(self, request):
-        api_key = GPT_API_KEY
+        api_key = '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'
         url = 'https://api.openai.com/v1/chat/completions'
 
         query = request.data.get('text')
